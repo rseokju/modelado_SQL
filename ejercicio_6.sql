@@ -1,0 +1,1 @@
+SELECT TailNum, Distance FROM flights GROUP BY TailNum HAVING TailNum!='' ORDER BY Distance DESC LIMIT 10;

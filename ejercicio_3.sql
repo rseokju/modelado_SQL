@@ -1,0 +1,1 @@
+SELECT Origin, colYear, colMonth, ArrDelay AS prom_arribaddes FROM flights ORDER BY Origin, colYear, colMonth ASC;

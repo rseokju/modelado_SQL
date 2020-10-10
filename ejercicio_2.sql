@@ -1,0 +1,1 @@
+SELECT Origin, SUM(ArrDelay)/COUNT(ArrDelay) AS prom_arribades, SUM(DepDelay)/COUNT(DepDelay) AS prom_sortides FROM flights GROUP BY Origin ORDER BY Origin ASC;
